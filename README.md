@@ -15,6 +15,6 @@ requirments:
     pip install pymysql
   ~sql commands:
   
-    ->create database passmgr;
-    ->use passmgr;
-    ->CREATE TABLE data (app varchar(225), Uname varchar(225), email varchar(225), AppPass varchar(225));
+    create database passmgr;
+    use passmgr;
+    CREATE TABLE data (app varchar(225), Uname varchar(225), email varchar(225), AppPass varchar(225));
